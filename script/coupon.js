@@ -15,8 +15,12 @@ function getInputValue() {
 
   //   console.log(inputVal, "dws");
   //   document.getElementById("myForm").action = "scratchAndWin.html";
-  if (inputVal == "BANSAL100") {
-    console.log("HI");
+  if (
+    inputVal == "SHOP2000" ||
+    inputVal == "shop2000" ||
+    inputVal == "Shop2000"
+  ) {
+    // console.log("HI");
     document.getElementById("myForm").action = "scratchAndWin.html";
     // window.location.href = "http://programminghead.com";
   } else {

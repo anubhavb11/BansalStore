@@ -36,6 +36,8 @@ h3 {
   justify-content: center;
   border: 3px solid white;
   position: relative;
+  /* width: 325px; */
+  max-width: 325px;
   border-radius: 20px;
   /* transform: scale(1.5); */
   /* flex-direction: column; */
