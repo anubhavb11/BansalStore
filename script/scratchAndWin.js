@@ -19,7 +19,7 @@
     </div>
   </div> `;
   const markup4 = `<div class="prize">
-  <img class="prize__img" src="img/scratch-win/coffee.jpeg" alt="" srcset="" width="10" />
+  <img class="prize__img" src="img/scratch-win/coffee.jpeg" alt="" srcset=""  />
   <div class="prize__name">
     <h3>Continental Speciale Instant Coffee 50gm</h3>
   </div>
@@ -45,8 +45,8 @@
     ctx.drawImage(image, 0, 0);
     // Show the form when Image is loaded.
     const x = Math.floor(Math.random() * 4);
-    console.log(x);
-    const markup = markuparr[3];
+    // console.log(x);
+    const markup = markuparr[x];
 
     canvas.insertAdjacentHTML("afterend", markup);
     // document.querySelectorAll(".form")[0].style.visibility = "visible";
