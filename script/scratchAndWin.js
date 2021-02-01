@@ -13,7 +13,7 @@
     </div>
   </div> `;
   const markup3 = ` <div class="prize">
-    <img class="prize__img" src="img/scratch-win/bowl.jpg" alt="" srcset="" />
+    <img class="prize__img" src="img/scratch-win/bowls.jpg" alt="" srcset="" />
     <div class="prize__name">
       <h3>Bowl</h3>
     </div>
@@ -24,8 +24,20 @@
     <h3>Continental Speciale Instant Coffee 50gm</h3>
   </div>
 </div>`;
+  const markup5 = ` <div class="prize">
+    <img class="prize__img" src="img/scratch-win/Container.jpg" alt="" srcset="" />
+    <div class="prize__name">
+      <h3>Container</h3>
+    </div>
+  </div> `;
+  const markup6 = ` <div class="prize">
+    <img class="prize__img" src="img/scratch-win/bottel.jpg" alt="" srcset="" />
+    <div class="prize__name">
+      <h3>Bottel</h3>
+    </div>
+  </div> `;
 
-  const markuparr = [markup1, markup2, markup3, markup4];
+  const markuparr = [markup1, markup2, markup3, markup4, markup5, markup6];
 
   var isDrawing, lastPoint;
   var container = document.getElementById("js-container"),
@@ -44,7 +56,7 @@
   image.onload = function () {
     ctx.drawImage(image, 0, 0);
     // Show the form when Image is loaded.
-    const x = Math.floor(Math.random() * 4);
+    const x = Math.floor(Math.random() * 6);
     // console.log(x);
     const markup = markuparr[x];
 
