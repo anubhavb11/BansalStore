@@ -25,7 +25,7 @@
   </div>
 </div>`;
   const markup5 = ` <div class="prize">
-    <img class="prize__img" src="img/scratch-win/Container.jpg" alt="" srcset="" />
+    <img class="prize__img" src="img/scratch-win/container.jpg" alt="" srcset="" />
     <div class="prize__name">
       <h3>Container</h3>
     </div>
