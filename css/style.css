@@ -210,3 +210,10 @@
   display: flex;
   justify-content: space-around;
 }
+
+.tandc {
+  display: flex;
+  justify-content: flex-end;
+  
+  margin-top: 20px;
+}
